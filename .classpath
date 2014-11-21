@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/owlapiv3/owlapi-distribution-3.4.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-rules.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-query.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-pellint.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-owlapiv3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-modularity.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-explanation.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-el.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pellet-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/iri-0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/icu4j-3.4.5.jar"/>
+	<classpathentry kind="lib" path="libs/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jetty/jetty.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jgrapht/jgrapht-jdk1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/owlapiv3/owlapi-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/xsdlib/xsdlib.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/slf4j-android-1.6.1-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/androjena_0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/servlet.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
