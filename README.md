@@ -18,5 +18,5 @@ The AdaptUIDemo Android project should import Pellet4Android as an Android libra
 Every task is performed through a class called OntologyManager, which manages, configures and runs every operation that deals with the ontology. You can load the ontology (from file or from the Web), insert and delete classes, individuals, datatype and object properties, execute rules, etc. Everything you can do in Pellet is available in Pellet4Android (at least this is my intention :p).
 
 Btw, the needed libraries are shown in the following figure: 
-![libraries] (https://github.com/edlectrico/Pellet4Android/tree/master/res/drawable-hdpi/libraries.png "Needed libraries")
+![libraries] (https://raw.github.com/edlectrico/Pellet4Android/master/res/drawable-hdpi/libraries.png?raw=true "Needed libraries")
 
