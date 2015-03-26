@@ -3,7 +3,7 @@ Pellet4Android
 
 - Description:
 -------------
-This project allows to use the Pellet reasoning engine in Android devices. As the port cannot be directly made due to the differences between Pellet Java classes and Android's Dalvik platform, several classes have been rewritten and adapted. This is because of the dependences from, for example, Javax and Xerces packages, which cannot be compiled in Dalvik.
+This project allows to use the [Pellet] (http://clarkparsia.com/pellet/) reasoning engine in Android devices. As the port cannot be directly made due to the differences between Pellet Java classes and Android's Dalvik platform, several classes have been rewritten and adapted. This is because of the dependences from, for example, Javax and Xerces packages, which cannot be compiled in Dalvik.
 
 Besides, I have experienced several difficulties caused by the large amount of methods in the whole project, which triggers several dex errors in Android. I couldn't make it work in the [Android Studio] (http://developer.android.com/tools/studio/index.html) (even taking into account the [Android ProGuard] (http://developer.android.com/tools/help/proguard.html) and Android 5.0, which it seems to allow more than 65K methods). Anyway, this project has been developed with [Eclipse IDE] (https://eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) and it works.
 
