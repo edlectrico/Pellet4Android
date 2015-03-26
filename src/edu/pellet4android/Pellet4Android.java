@@ -1,4 +1,4 @@
-package es.deusto.deustotech.adaptui;
+package edu.pellet4android;
 
 
 import java.io.File;
@@ -18,8 +18,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import es.deusto.deustotech.pellet4android.OntologyManager;
-import es.deusto.deustotech.pellet4android.exceptions.OntologyLoadException;
+import edu.pellet4android.ontmanager.OntologyManager;
+import edu.pellet4android.ontmanager.exceptions.OntologyLoadException;
 
 /**
  * 
@@ -31,7 +31,7 @@ import es.deusto.deustotech.pellet4android.exceptions.OntologyLoadException;
  * corresponding applications.
  *
  */
-public class AdaptUI {
+public class Pellet4Android {
 	
 	private static OntologyManager ontManager;
 	private String namespace;
@@ -40,7 +40,7 @@ public class AdaptUI {
 	@SuppressWarnings("unused")
 	private List<String> buttons, editTexts, textViews;
 	
-	public AdaptUI(){
+	public Pellet4Android(){
 		ontManager = new OntologyManager();
 	}
 	
@@ -52,7 +52,7 @@ public class AdaptUI {
 	 * @param namespace
 	 * @param views
 	 */
-	public AdaptUI(final String namespace, final Collection<View> views){
+	public Pellet4Android(final String namespace, final Collection<View> views){
 		ontManager = new OntologyManager();
 		
 		this.namespace = namespace;

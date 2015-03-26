@@ -1,4 +1,4 @@
-package es.deusto.deustotech.pellet4android.exceptions;
+package edu.pellet4android.ontmanager.exceptions;
 
 public class OntologyLoadException extends Exception {
 

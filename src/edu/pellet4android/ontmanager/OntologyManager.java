@@ -1,4 +1,4 @@
-package es.deusto.deustotech.pellet4android;
+package edu.pellet4android.ontmanager;
 
 /*******************************************************************************      
  *      Licensed to the Apache Software Foundation (ASF) under one
@@ -74,9 +74,9 @@ import android.util.Log;
 
 import com.clarkparsia.pellet.owlapiv3.PelletReasonerFactory;
 
-import es.deusto.deustotech.pellet4android.exceptions.OntologyCreationException;
-import es.deusto.deustotech.pellet4android.exceptions.OntologyLoadException;
-import es.deusto.deustotech.pellet4android.exceptions.OntologySavingException;
+import edu.pellet4android.ontmanager.exceptions.OntologyCreationException;
+import edu.pellet4android.ontmanager.exceptions.OntologyLoadException;
+import edu.pellet4android.ontmanager.exceptions.OntologySavingException;
 
 public class OntologyManager {
 
