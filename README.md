@@ -64,7 +64,7 @@ These are, again, the imported and absolutely necessary libraries:
  - pellet-dig/cli/core/el/explanation/modularity/owlapiv3/pellint/query/rules .jars
  - servlet.jar
 
- If you find any problem configuring the project don't hesitate to contact me and I'll try to hepl you.
+ If you find any problem configuring the project don't hesitate to contact me and I'll try to help you.
  
  
  Enjoy!
